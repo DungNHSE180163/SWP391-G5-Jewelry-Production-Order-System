@@ -1,12 +1,7 @@
 package com.swp391.database_prototype.dto;
 
-import com.swp391.database_prototype.pojos.Account;
 import com.swp391.database_prototype.pojos.Gender;
 import com.swp391.database_prototype.pojos.Role;
-import jakarta.persistence.Column;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.OneToOne;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
