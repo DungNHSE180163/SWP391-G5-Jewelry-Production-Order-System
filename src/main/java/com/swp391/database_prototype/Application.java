@@ -1,7 +1,7 @@
 package com.swp391.database_prototype;
 
 import com.swp391.database_prototype.pojos.Account;
-import com.swp391.database_prototype.pojos.Role;
+import com.swp391.database_prototype.pojos.enums.Role;
 import com.swp391.database_prototype.repositories.AccountRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

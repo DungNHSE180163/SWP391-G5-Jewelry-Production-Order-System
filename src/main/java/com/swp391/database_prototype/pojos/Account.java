@@ -1,6 +1,7 @@
 package com.swp391.database_prototype.pojos;
 
 
+import com.swp391.database_prototype.pojos.enums.Role;
 import com.swp391.database_prototype.util.IdGenerator;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -44,4 +45,8 @@ public class Account {
 
     @Enumerated(EnumType.STRING)
     private Role role;
+
+    @ManyToOne
+    @JoinColumn(name = "status_id")
+    private Status status;
 }

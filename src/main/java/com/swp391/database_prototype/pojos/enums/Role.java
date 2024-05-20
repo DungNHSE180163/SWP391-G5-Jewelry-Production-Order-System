@@ -1,4 +1,4 @@
-package com.swp391.database_prototype.pojos;
+package com.swp391.database_prototype.pojos.enums;
 
 public enum Role {
     CUSTOMER,
