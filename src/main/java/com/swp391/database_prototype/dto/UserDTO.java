@@ -1,7 +1,7 @@
 package com.swp391.database_prototype.dto;
 
-import com.swp391.database_prototype.pojos.enums.Gender;
-import com.swp391.database_prototype.pojos.enums.Role;
+import com.swp391.database_prototype.enums.Gender;
+import com.swp391.database_prototype.enums.Role;
 import lombok.Builder;
 import lombok.Data;
 

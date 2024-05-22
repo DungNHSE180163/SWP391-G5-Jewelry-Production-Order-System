@@ -1,6 +1,6 @@
 package com.swp391.database_prototype.pojos;
 
-import com.swp391.database_prototype.pojos.enums.StatusType;
+import com.swp391.database_prototype.enums.StatusType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

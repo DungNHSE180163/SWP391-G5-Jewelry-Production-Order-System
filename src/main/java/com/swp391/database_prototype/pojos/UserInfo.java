@@ -1,6 +1,6 @@
 package com.swp391.database_prototype.pojos;
 
-import com.swp391.database_prototype.pojos.enums.Gender;
+import com.swp391.database_prototype.enums.Gender;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
